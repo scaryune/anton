@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "title": "Global Hackathon",
+      "description": "A 48-hour global hackathon focusing on AI and machine learning.",
+      "price_tag": "Free",
+      "timeline": "48 hours",
+      "dates": "2024-06-15 to 2024-06-17",
+      "partners": ["TechCorp", "InnovateX", "CodeWorld"]
+    },
+    {
+      "id": 2,
+      "title": "HealthTech Hack",
+      "description": "Hackathon aimed at developing innovative healthcare solutions.",
+      "price_tag": "$50",
+      "timeline": "72 hours",
+      "dates": "2024-07-01 to 2024-07-04",
+      "partners": ["MediLife", "Health Solutions", "BioTech"]
+    },
+    {
+      "id": 3,
+      "title": "EcoHack",
+      "description": "A hackathon to create sustainable and eco-friendly technologies.",
+      "price_tag": "Free",
+      "timeline": "36 hours",
+      "dates": "2024-08-20 to 2024-08-22",
+      "partners": ["GreenTech", "EcoSolutions", "NatureCorp"]
+    },
+    {
+      "id": 4,
+      "title": "FinTech Innovate",
+      "description": "Hackathon for the next big thing in financial technology.",
+      "price_tag": "$75",
+      "timeline": "48 hours",
+      "dates": "2024-09-10 to 2024-09-12",
+      "partners": ["FinCorp", "BankSolutions", "CryptoHub"]
+    },
+    {
+      "id": 5,
+      "title": "EduHack",
+      "description": "Hackathon focused on revolutionizing the education sector.",
+      "price_tag": "Free",
+      "timeline": "24 hours",
+      "dates": "2024-10-05 to 2024-10-06",
+      "partners": ["LearnTech", "EduWorld", "FutureClass"]
+    },
+    {
+      "id": 6,
+      "title": "Smart City Hack",
+      "description": "Building technologies for smart and sustainable cities.",
+      "price_tag": "$100",
+      "timeline": "72 hours",
+      "dates": "2024-11-15 to 2024-11-18",
+      "partners": ["UrbanTech", "CitySolutions", "SmartBuild"]
+    },
+    {
+      "id": 7,
+      "title": "AgriTech Hack",
+      "description": "Innovating the agricultural sector with technology.",
+      "price_tag": "$25",
+      "timeline": "48 hours",
+      "dates": "2024-12-01 to 2024-12-03",
+      "partners": ["AgriInnovate", "FarmTech", "GreenFields"]
+    },
+    {
+      "id": 8,
+      "title": "GameDev Hackathon",
+      "description": "Creating the next generation of video games.",
+      "price_tag": "$30",
+      "timeline": "48 hours",
+      "dates": "2024-06-25 to 2024-06-27",
+      "partners": ["GameWorld", "PlayTech", "PixelCorp"]
+    },
+    {
+      "id": 9,
+      "title": "Women in Tech Hack",
+      "description": "Empowering women in technology through innovation.",
+      "price_tag": "Free",
+      "timeline": "36 hours",
+      "dates": "2024-07-20 to 2024-07-22",
+      "partners": ["WomenTech", "InnovateHer", "TechSisters"]
+    },
+    {
+      "id": 10,
+      "title": "Open Source Hackathon",
+      "description": "Collaborating on open source projects.",
+      "price_tag": "Free",
+      "timeline": "48 hours",
+      "dates": "2024-08-15 to 2024-08-17",
+      "partners": ["OpenSourceOrg", "CodeCollab", "DevHub"]
+    },
+    {
+      "id": 11,
+      "title": "Blockchain Hack",
+      "description": "Innovating with blockchain technology.",
+      "price_tag": "$50",
+      "timeline": "72 hours",
+      "dates": "2024-09-01 to 2024-09-04",
+      "partners": ["BlockTech", "CryptoInnovate", "ChainSolutions"]
+    },
+    {
+      "id": 12,
+      "title": "AI for Good",
+      "description": "Using AI to solve global challenges.",
+      "price_tag": "$75",
+      "timeline": "48 hours",
+      "dates": "2024-10-01 to 2024-10-03",
+      "partners": ["AI World", "GoodTech", "Future AI"]
+    },
+    {
+      "id": 13,
+      "title": "Hack the Future",
+      "description": "Envisioning and creating future technologies.",
+      "price_tag": "$100",
+      "timeline": "72 hours",
+      "dates": "2024-11-05 to 2024-11-08",
+      "partners": ["FutureTech", "Innovate Now", "NextGen"]
+    },
+    {
+      "id": 14,
+      "title": "Health Hack",
+      "description": "Developing technologies for health and wellness.",
+      "price_tag": "$25",
+      "timeline": "24 hours",
+      "dates": "2024-12-10 to 2024-12-11",
+      "partners": ["HealthTech", "Wellness Innovate", "BioSolutions"]
+    },
+    {
+      "id": 15,
+      "title": "Clean Energy Hack",
+      "description": "Innovations for clean and renewable energy.",
+      "price_tag": "Free",
+      "timeline": "36 hours",
+      "dates": "2024-06-10 to 2024-06-12",
+      "partners": ["GreenEnergy", "EcoInnovate", "PowerTech"]
+    },
+    {
+      "id": 16,
+      "title": "SpaceTech Hackathon",
+      "description": "Creating the next big thing in space technology.",
+      "price_tag": "$150",
+      "timeline": "72 hours",
+      "dates": "2024-07-15 to 2024-07-18",
+      "partners": ["SpaceInnovate", "AstroTech", "GalacticCorp"]
+    },
+    {
+      "id": 17,
+      "title": "MusicTech Hack",
+      "description": "Innovations at the intersection of music and technology.",
+      "price_tag": "$50",
+      "timeline": "48 hours",
+      "dates": "2024-08-05 to 2024-08-07",
+      "partners": ["SoundTech", "Music Innovate", "HarmonyHub"]
+    },
+    {
+      "id": 18,
+      "title": "LegalTech Hackathon",
+      "description": "Revolutionizing the legal industry with technology.",
+      "price_tag": "$75",
+      "timeline": "48 hours",
+      "dates": "2024-09-20 to 2024-09-22",
+      "partners": ["LawTech", "Innovate Legal", "JusticeHub"]
+    },
+    {
+      "id": 19,
+      "title": "RetailTech Hack",
+      "description": "Innovations for the retail industry.",
+      "price_tag": "$100",
+      "timeline": "72 hours",
+      "dates": "2024-10-20 to 2024-10-23",
+      "partners": ["Retail Innovate", "ShopTech", "MarketHub"]
+    },
+    {
+      "id": 20,
+      "title": "Social Impact Hack",
+      "description": "Creating technologies for social good.",
+      "price_tag": "Free",
+      "timeline": "36 hours",
+      "dates": "2024-11-25 to 2024-11-27",
+      "partners": ["Impact Innovate", "ChangeMakers", "GoodHub"]
+    }
+  ]
+  

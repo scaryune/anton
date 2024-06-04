@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Alice",
+      "description": "Software Developer",
+      "money": 5000
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "description": "Data Scientist",
+      "money": 7000
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "description": "UX Designer",
+      "money": 4000
+    },
+    {
+      "id": 4,
+      "name": "David",
+      "description": "Project Manager",
+      "money": 6000
+    },
+    {
+      "id": 5,
+      "name": "Eve",
+      "description": "Cybersecurity Specialist",
+      "money": 8000
+    },
+    {
+      "id": 6,
+      "name": "Frank",
+      "description": "DevOps Engineer",
+      "money": 5500
+    },
+    {
+      "id": 7,
+      "name": "Grace",
+      "description": "Database Administrator",
+      "money": 6500
+    },
+    {
+      "id": 8,
+      "name": "Hank",
+      "description": "Network Engineer",
+      "money": 4800
+    },
+    {
+      "id": 9,
+      "name": "Ivy",
+      "description": "AI Researcher",
+      "money": 9000
+    },
+    {
+      "id": 10,
+      "name": "Jack",
+      "description": "Frontend Developer",
+      "money": 5200
+    },
+    {
+      "id": 11,
+      "name": "Karen",
+      "description": "Backend Developer",
+      "money": 5300
+    },
+    {
+      "id": 12,
+      "name": "Leo",
+      "description": "Full Stack Developer",
+      "money": 6000
+    },
+    {
+      "id": 13,
+      "name": "Mia",
+      "description": "Mobile App Developer",
+      "money": 4700
+    },
+    {
+      "id": 14,
+      "name": "Nick",
+      "description": "QA Engineer",
+      "money": 4500
+    },
+    {
+      "id": 15,
+      "name": "Olivia",
+      "description": "Product Manager",
+      "money": 6800
+    },
+    {
+      "id": 16,
+      "name": "Paul",
+      "description": "System Analyst",
+      "money": 5000
+    },
+    {
+      "id": 17,
+      "name": "Quinn",
+      "description": "Technical Support Engineer",
+      "money": 4300
+    },
+    {
+      "id": 18,
+      "name": "Rachel",
+      "description": "IT Consultant",
+      "money": 7500
+    },
+    {
+      "id": 19,
+      "name": "Sam",
+      "description": "Scrum Master",
+      "money": 6100
+    },
+    {
+      "id": 20,
+      "name": "Tina",
+      "description": "Cloud Architect",
+      "money": 8200
+    }
+  ]
+  

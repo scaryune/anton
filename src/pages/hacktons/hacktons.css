@@ -1,0 +1,25 @@
+.hackathon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; /* Align items with equal space between them */
+  }
+  
+  .hackathon-item {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.33% - 20px); /* Adjust the width as needed */
+  }
+  
+  .hackathon-item h2 {
+    margin-top: 0;
+  }
+  
+  .hackathon-item p {
+    margin: 5px 0;
+  }
+  
+  .search-input {
+    background-color: cyan;
+  }
