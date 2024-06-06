@@ -1,0 +1,15 @@
+.grid-guide-lines {
+    display: flex;
+    height: 100vh;
+    pointer-events: none; /* Makes sure the grid doesn't interfere with clicking */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .grid-line {
+    height: 100%;
+  }
+  

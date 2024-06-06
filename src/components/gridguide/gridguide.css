@@ -1,0 +1,17 @@
+.grid-guide {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    pointer-events: none; /* Makes sure the grid doesn't interfere with clicking */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .grid-column {
+    background-color: rgba(255, 0, 0, 0.2); /* Adjust color and opacity as needed */
+    height: 100%;
+  }
+  

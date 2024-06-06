@@ -8,7 +8,8 @@ import Data from './pages/data/dee.jsx'
 import Hacktons from './pages/hacktons/hacktons.jsx'
 import HackathonDetails from './pages/hacktons/hacktonsdetails.jsx'; // Create this component for individual hackathon details
 import Header from './components/header/header.jsx';
-
+import GridGuide from './components/gridguide/gridguide.jsx';
+import GridGuideLines from './components/gridguidelines/grideguidelines.jsx';
 
 function show(){
 
@@ -17,6 +18,8 @@ function show(){
 function App() {
   return (
     <Router>
+      <GridGuide columns={12} gap={16} />
+      <GridGuideLines columns={16} gap={24} />
       <Header />
       <Routes>
         <Route path="/" exact element={<Home/>}></Route>

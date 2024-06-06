@@ -29,17 +29,17 @@ router.post('/', (req,res) =>{
 router.get('/:id', (req,res) =>{
     const { id } = req.params;
 
-    const foundUser = users.find((user) => user.id === id)
+    const foundUser = users.find((user) => user.id === id);
 
-    res.send(foundUser)
+    res.send(foundUser);
 });
 
 router.delete('/:id', (req,res) =>{
-    const { id } = req.params 
+    const { id } = req.params;
     
-    users = users.filter((user) => user.id !== id)
+    users = users.filter((user) => user.id !== id);
 
-    res.send(`${id} deleted sucessfully from database`)
+    res.send(`${id} deleted sucessfully from database`);
 });
 
 router.patch('/:id',(req,res) => {
@@ -47,13 +47,13 @@ router.patch('/:id',(req,res) => {
 
     const {first_name, last_name, email} = req.body;
 
-    const user = users.find((user) => user.id === id)
+    const user = users.find((user) => user.id === id);
 
     if(first_name) user.first_name = first_name;
     if(last_name) user.last_name = last_name;
     if(email) user.email = email;
 
-    res.send(`User with the ${id} has been updated`)
+    res.send(`User with the ${id} has been updated`);
 })
 
 export default router 
