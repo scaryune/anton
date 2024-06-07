@@ -9,23 +9,13 @@ const Register = () => {
     confirmPassword: ''
   });
 
-  const handleRequest = async () =>{
-    // handle request from api
-    let response = await fetch('http://localhost:3000')
-    if(request.ok){
-      let json = await response.json();
-      console.log(json);
-    } else{
-      alert("HTTP-Error: " + response.status);
-    }
-  };
-  
   const [errors, setErrors] = useState({});
+  const [successMessage, setSuccessMessage] = useState('');
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setFormData({
-    formData,
+      ...formData,
       [name]: value
     });
   };
@@ -48,19 +38,37 @@ const Register = () => {
     if (formData.password !== formData.confirmPassword) {
       errors.confirmPassword = 'Passwords do not match';
     }
-    let length = formData.password.length
-    if(length == 4){
-      errors.confirmPassword = 'Password less of 5 characeters'
-    }
     return errors;
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     const validationErrors = validate();
     if (Object.keys(validationErrors).length === 0) {
-      console.log('Form data:', formData);
-      // Perform registration logic here, such as calling an API
+      try {
+        const response = await fetch('http://localhost:3000/users/', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            username: formData.username,
+            email: formData.email,
+            password: formData.password
+          })
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          setSuccessMessage(data.message);
+          setErrors({});
+        } else {
+          const errorData = await response.json();
+          setErrors({ apiError: errorData.message });
+        }
+      } catch (error) {
+        setErrors({ apiError: 'Registration failed. Please try again.' });
+      }
     } else {
       setErrors(validationErrors);
     }
@@ -114,6 +122,8 @@ const Register = () => {
           />
           {errors.confirmPassword && <span className="error-message">{errors.confirmPassword}</span>}
         </div>
+        {errors.apiError && <span className="error-message">{errors.apiError}</span>}
+        {successMessage && <span className="success-message">{successMessage}</span>}
         <button type="submit">Register</button>
       </form>
     </div>
